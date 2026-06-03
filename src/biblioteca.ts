@@ -172,19 +172,17 @@ class Devolucion implements IDevolucion {
         );
     }
 }
-// Crear usuario
 const usuario1 = new Usuario(
     1,
     "Juan Pérez",
     "juan@gmail.com",
     987654321,
-    2032
+    20
 );
 
 usuario1.registrarse();
 console.log("¿Usuario válido?", usuario1.validarUsuario());
 
-// Crear libro
 const libro1 = new Libro(
     1,
     "la bella y la bestia",
@@ -196,7 +194,6 @@ const libro1 = new Libro(
 libro1.registrarLibro();
 libro1.consultarLibro();
 
-// Crear préstamo
 const prestamo1 = new Prestamo(
     1,
     usuario1.id,
@@ -207,7 +204,6 @@ const prestamo1 = new Prestamo(
 prestamo1.crearPrestamo();
 prestamo1.registrarFechaPrestamo();
 
-// Crear devolución
 const devolucion1 = new Devolucion(
     1,
     "Devolución Libro",
