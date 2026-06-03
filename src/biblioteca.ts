@@ -178,7 +178,7 @@ const usuario1 = new Usuario(
     "Juan Pérez",
     "juan@gmail.com",
     987654321,
-    20
+    2032
 );
 
 usuario1.registrarse();
@@ -187,8 +187,8 @@ console.log("¿Usuario válido?", usuario1.validarUsuario());
 // Crear libro
 const libro1 = new Libro(
     1,
-    "Cien años de soledad",
-    "Gabriel García Márquez",
+    "la bella y la bestia",
+    "",
     "Novela",
     true
 );
