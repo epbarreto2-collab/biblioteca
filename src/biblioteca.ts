@@ -174,8 +174,8 @@ class Devolucion implements IDevolucion {
 }
 const usuario1 = new Usuario(
     1,
-    "Juan Pérez",
-    "juan@gmail.com",
+    "Jose Perez",
+    "Jose@gmail.com",
     987654321,
     20
 );
@@ -186,7 +186,7 @@ console.log("¿Usuario válido?", usuario1.validarUsuario());
 const libro1 = new Libro(
     1,
     "la bella y la bestia",
-    "",
+    "Jeanne-Marie Le Clézio",
     "Novela",
     true
 );
@@ -217,9 +217,9 @@ devolucion1.liberarDisponibilidadLibro();
 
 const usuario = new Usuario(
     1,
-    "Juan",
-    "juan@gmail.com",
-    123456789,
+    "Jose Perez",
+    "Jose@gmail.com",
+    987654321,
     20
 );
 
